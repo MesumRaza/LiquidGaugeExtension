@@ -101,11 +101,11 @@
             var value = SummaryData.data[0][0].value //get meaure value from Summary Data
             var config = liquidFillGaugeDefaultSettings();
             config.circleThickness = 0.15;
-            config.circleColor = "#6388b4";
-            config.textColor = "#6388b4";
+            config.circleColor = "#c71414";
+            config.textColor = "#c71414";
             config.waveTextColor = "#00ffff";
             config.waveColor = "#6388b4";
-            config.textVertPosition = 0.8;
+            config.textVertPosition = 0.5;
             config.waveAnimateTime = 1000;
             config.waveHeight = 0.05;
             config.waveAnimate = true;
